@@ -46,7 +46,7 @@ delta2<-function(theta1,theta2,theta3){
 eps<-function(theta1,theta2,theta3){
   theta1+INV(theta3-theta2)
 }
-############################# this is about tabel 1 ##############################
+############################# this is for tabel 1 ##############################
 l=100
 threshold=-30
 thetafirst<-rnorm(kk,0,1)
